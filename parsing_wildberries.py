@@ -85,8 +85,8 @@ def main(filename: str) -> csv:
         writer = csv.writer(f)
         writer.writerow([
             "Brand",
-            "Characteristics",
             "Price",
+            "Characteristics",
             "Image"
         ])
         
