@@ -47,7 +47,7 @@ def main(filename: str) -> csv:
                 data["brand"],
                 data["price"],
                 data["stats"],
-                data["image"],
+                "https" + data["image"],,
             ])
     
 
